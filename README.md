@@ -17,11 +17,11 @@ I architect and engineer resilient, security-first software systems—bridging r
 
 ## About Me
 
-- 🎓 **BS in Information Technology (BSIT 4B)** student at **West Visayas State University (WVSU) CICT**, majoring in **Network and Information Security (NIS)** & **Software Technologies (ST)**.
-- 🛡️ **Dual-Certified**: **Cisco Certified Network Associate (CCNA 1–3)** and **Computer Systems Servicing (CSS NC II)**.
-- ⚙️ **Backend & Systems Specialist**: Experienced in architecting production-grade modular monoliths, distributed services, and offline-first systems across **Java (Spring Boot 4)**, **Go (Golang)**, and **TypeScript (NestJS / Next.js / Node.js)**.
-- 🔐 **Security-First Mindset**: Focused on strict Row-Level Security (RLS), multi-tenant data boundaries, OWASP mitigations, SSRF defenses, cryptographic token isolation, and revocable session architectures.
-- 🐧 **Infrastructure & DevOps**: Proficient in Linux system administration (Ubuntu, Debian, Kali), Docker containerization, reverse proxy orchestration (Nginx), and automated CI/CD security gating.
+-  **BS in Information Technology (BSIT 4B)** student at **West Visayas State University (WVSU) CICT**, majoring in **Network and Information Security (NIS)** & **Software Technologies (ST)**.
+-  **Dual-Certified**: **Cisco Certified Network Associate (CCNA 1–3)** and **Computer Systems Servicing (CSS NC II)**.
+-  **Backend & Systems Specialist**: Experienced in architecting production-grade modular monoliths, distributed services, and offline-first systems across **Java (Spring Boot 4)**, **Go (Golang)**, and **TypeScript (NestJS / Next.js / Node.js)**.
+-  **Security-First Mindset**: Focused on strict Row-Level Security (RLS), multi-tenant data boundaries, OWASP mitigations, SSRF defenses, cryptographic token isolation, and revocable session architectures.
+-  **Infrastructure & DevOps**: Proficient in Linux system administration (Ubuntu, Debian, Kali), Docker containerization, reverse proxy orchestration (Nginx), and automated CI/CD security gating.
 
 ---
 
@@ -104,12 +104,12 @@ Frontend Engineering   React 19, TypeScript, Tailwind CSS, Progressive Web Apps 
 
 ## Certifications & Credentials
 
-- 📜 **Cisco Certified Network Associate (CCNA)**
+-  **Cisco Certified Network Associate (CCNA)**
   - *CCNA 1*: Introduction to Networks
   - *CCNA 2*: Switching, Routing, and Wireless Essentials
   - *CCNA 3*: Enterprise Networking, Security, and Automation
-- 📜 **TESDA Computer Systems Servicing (CSS NC II)** — National Certificate Level II
-- 🏛️ **Bachelor of Science in Information Technology (BSIT)** — West Visayas State University
+-  **TESDA Computer Systems Servicing (CSS NC II)** — National Certificate Level II
+-  **Bachelor of Science in Information Technology (BSIT)** — West Visayas State University
 
 ---
 
