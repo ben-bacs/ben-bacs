@@ -1,21 +1,29 @@
 <div align="center">
 
-# Benedict Neil D. Bacud
+<a href="https://ben-bacs.github.io/Portfolio/">
+  <img src="./assets/banner.svg" alt="Benedict Neil D. Bacud — Backend, Systems & Security Engineer" width="100%" />
+</a>
 
-### Full-Stack Developer · Systems & Backend Engineering · Networking & Cybersecurity
+<br />
 
-I architect and engineer resilient, security-first software systems—bridging robust backend services, edge & cloud infrastructure, and low-level network security.
+<p align="center">
+  <samp>
+    <a href="https://ben-bacs.github.io/Portfolio/"><b>portfolio</b></a> ·
+    <a href="https://github.com/ben-bacs?tab=repositories"><b>repositories</b></a> ·
+    <a href="https://github.com/calcom/cal.diy/pull/30158"><b>security-research</b></a> ·
+    <a href="https://github.com/ben-bacs/RESONA/releases"><b>releases</b></a> ·
+    <a href="https://linkedin.com"><b>linkedin</b></a> ·
+    <a href="mailto:benedictneilbacud@gmail.com"><b>email</b></a>
+  </samp>
+</p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-ben--bacs-181717?style=for-the-badge&logo=github)](https://github.com/ben-bacs)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Showcase-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://ben-bacs.github.io/Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![Email](https://img.shields.io/badge/Email-benedictneilbacud%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:benedictneilbacud@gmail.com)
+I architect and engineer resilient, security-first software systems—bridging high-throughput **modular monoliths**, **native Rust/DSP desktop runtimes**, **edge-native persistence**, and **CCNA-grounded network security**.
 
 </div>
 
 ---
 
-## About Me
+### Quick Overview
 
 -  **BS in Information Technology (BSIT 4B)** student at **West Visayas State University (WVSU) CICT**, majoring in **Network and Information Security (NIS)** & **Software Technologies (ST)**.
 -  **Dual-Certified**: **Cisco Certified Network Associate (CCNA 1–3)** and **Computer Systems Servicing (CSS NC II)**.
@@ -25,72 +33,103 @@ I architect and engineer resilient, security-first software systems—bridging r
 
 ---
 
-## Technical Focus
+### Featured Engineering Systems
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ben-bacs/RESONA">RESONA (v0.1.2)</a></h4>
+      <p><b>Native Rust Audio DSP &amp; WebGL2 Visualizer</b> — Ambient Windows 11 desktop visualizer using zero-permission WASAPI loopback capture, a 64-band logarithmic FFT filterbank with Hann windowing in native Rust, 8 hardware-accelerated WebGL2 scenes, and atomic filesystem persistence.</p>
+      <p><samp>Rust · Tauri 2.2 · WASAPI DSP · WebGL2 · React 18 · TypeScript · GitHub Actions</samp></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ben-bacs/IJWKMS---Admin-Student-Management-System">IJWKMS Next</a></h4>
+      <p><b>Enterprise Academic Operations Modular Monolith</b> — Full-lifecycle student information &amp; enrollment architecture featuring BCrypt authentication, server-revocable HttpOnly cookie sessions, versioned curricula, prerequisite engines, and Flyway-managed transactional auditing.</p>
+      <p><samp>Java 25 · Spring Boot 4 · PostgreSQL 17 · Flyway · React 19 · TypeScript · Docker</samp></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/calcom/cal.diy/pull/30158">Cal.com SSRF Defense (PR #30158)</a></h4>
+      <p><b>Upstream Open-Source AppSec Contribution</b> — Engineered <code>fetchWithSSRFProtection()</code> in <code>packages/lib/ssrfProtection.ts</code> to block private IP, loopback, link-local, and cloud metadata SSRF vectors across redirect hops in external ICS calendar feeds.</p>
+      <p><samp>TypeScript · Node.js · Next.js · SSRF Mitigation · Network Security · Jest</samp></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ben-bacs/BENSOY">BENSOY</a></h4>
+      <p><b>Edge-Native Spotify Intelligence &amp; Chronobiology</b> — Zero-tracking listening telemetry platform deployed on Cloudflare Workers &amp; D1 edge SQLite. Features AES-256-GCM token encryption at rest, scheduled cron ingestion (<code>*/30 * * * *</code>), and 24-hour circadian profiling.</p>
+      <p><samp>Cloudflare Workers · Cloudflare D1 · Next.js · Drizzle ORM · AES-256-GCM · TypeScript</samp></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ben-bacs/Pediatric-Clinic-Management-System-PCMS-">PCMS v2</a></h4>
+      <p><b>Security-Hardened Pediatric Clinic &amp; EMR Platform</b> — Multi-role electronic medical records and clinic operations platform enforcing database-level PostgreSQL Row-Level Security (RLS), role-based access control, immunization tracking, and conflict-free scheduling.</p>
+      <p><samp>Next.js App Router · Supabase Auth · PostgreSQL RLS · React 19 · TypeScript · Docker</samp></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ben-bacs/HeatSafe">HeatSafe Campus</a></h4>
+      <p><b>Environmental Risk &amp; Operational Decision Support</b> — Mobile-first heat-risk intelligence platform separating Open-Meteo telemetry normalization, deterministic heat-index calculation, institutional policy rules, and human-approved campus advisories.</p>
+      <p><samp>Next.js 16 · React 19 · Supabase PostgreSQL · RLS · Open-Meteo API · Tailwind CSS</samp></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### Complete Repository & System Index
+
+| System / Repository | Domain & Architectural Highlights | Stack | Links |
+| :--- | :--- | :--- | :--- |
+| **[RESONA](https://github.com/ben-bacs/RESONA)** | Native Windows 11 WASAPI loopback 64-band FFT audio visualizer & 8 WebGL2 shader presets | `Rust` `Tauri 2.2` `WebGL2` `TypeScript` | [Source](https://github.com/ben-bacs/RESONA) · [Releases](https://github.com/ben-bacs/RESONA/releases) |
+| **[IJWKMS Next](https://github.com/ben-bacs/IJWKMS---Admin-Student-Management-System)** | Enterprise academic operations modular monolith with RBAC, Flyway migrations & audit trails | `Java 25` `Spring Boot 4` `PostgreSQL 17` | [Source](https://github.com/ben-bacs/IJWKMS---Admin-Student-Management-System) |
+| **[BENSOY](https://github.com/ben-bacs/BENSOY)** | Private edge-native Spotify chronobiology analytics with AES-256-GCM encrypted tokens | `Cloudflare Workers` `D1` `Drizzle ORM` | [Source](https://github.com/ben-bacs/BENSOY) |
+| **[PCMS v2](https://github.com/ben-bacs/Pediatric-Clinic-Management-System-PCMS-)** | Healthcare EMR & pediatric clinic operations with strict PostgreSQL Row-Level Security | `Next.js` `Supabase` `PostgreSQL RLS` | [Source](https://github.com/ben-bacs/Pediatric-Clinic-Management-System-PCMS-) |
+| **[HeatSafe Campus](https://github.com/ben-bacs/HeatSafe)** | Deterministic heat-index engine & auditable campus advisory decision-support platform | `Next.js 16` `React 19` `Supabase` | [Source](https://github.com/ben-bacs/HeatSafe) |
+| **[Cal.com SSRF Fix](https://github.com/calcom/cal.diy/pull/30158)** | Upstream SSRF defense guard with redirect hop validation & DNS/private-IP isolation | `TypeScript` `Node.js` `Jest` `AppSec` | [PR #30158](https://github.com/calcom/cal.diy/pull/30158) |
+| **A.C.A.M.S. ROTC-AF** | Offline-first, multi-tenant military/ROTC muster platform with sub-10ms p99 query latency | `Go 1.24` `PostgreSQL 16` `Docker` `RLS` | *Private System* |
+| **Secure Service Desk** | Multi-tenant ITSM modular monolith with Argon2id, rotating refresh tokens & OpenAPI | `NestJS 11` `PostgreSQL 17` `Prisma` | *Internal Monolith* |
+| **[AutoRest Sleep PWA](https://github.com/ben-bacs/Sleep-Tracker)** | Zero-server-cost OLED sleep debt & circadian recovery PWA with Web Audio noise synthesis | `React 19` `TypeScript` `Web Audio API` | [Live App](https://ben-bacs.github.io/Sleep-Tracker/) · [Source](https://github.com/ben-bacs/Sleep-Tracker) |
+| **[BSIT 4B Academic Hub](https://github.com/ben-bacs/bsit4b-nis-st)** | Interactive 479-slide lecture portal for CIT 245 (Cyberforensics) & CIT 220 (InfoSec 2) | `React` `TypeScript` `Vite` `Tailwind` | [Live Portal](https://ben-bacs.github.io/bsit4b-nis-st/) · [Source](https://github.com/ben-bacs/bsit4b-nis-st) |
+| **[A Day of Reset](https://github.com/ben-bacs/wellness-journal-presentation)** | 24-hour circadian wellness protocol deck with client-side `.pptx` export & Strava telemetry | `React` `TypeScript` `PptxGenJS` | [Live Deck](https://ben-bacs.github.io/wellness-journal-presentation/) · [Source](https://github.com/ben-bacs/wellness-journal-presentation) |
+| **[Developer Portfolio](https://github.com/ben-bacs/Portfolio)** | Luxury dark-mode engineering portfolio with interactive architecture inspection modals | `React` `TypeScript` `Framer Motion` | [Live Site](https://ben-bacs.github.io/Portfolio/) · [Source](https://github.com/ben-bacs/Portfolio) |
+
+---
+
+### Technical Matrix & Toolchain
 
 ```text
-Backend Architecture   Java (Spring Boot 4), Go, NestJS, Next.js, RESTful APIs, OpenAPI/Swagger
-Application Security   PostgreSQL RLS, SSRF defenses, OWASP Top 10, Argon2id/BCrypt, JWT & opaque sessions
-Cloud & Edge Runtimes  Cloudflare Workers, Cloudflare D1 (Edge SQLite), Supabase, PostgreSQL 16/17, Docker
-Systems & Networking  Linux server administration, TCP/IP, CCNA routing & switching, digital forensics
-Database Engineering   Flyway migrations, Prisma ORM, Drizzle ORM, tenant isolation, append-only audits
-Frontend Engineering   React 19, TypeScript, Tailwind CSS, Progressive Web Apps (PWA), Web Audio API
+Languages & Systems    :: Java 25 · Rust (1.78+) · Go (1.24) · TypeScript · SQL (PostgreSQL / SQLite) · Python · Bash
+Backend & Native       :: Spring Boot 4 · Tauri 2.2 (WASAPI DSP) · NestJS 11 · Next.js 16 · Node.js · REST / OpenAPI
+Data & Edge Runtimes   :: PostgreSQL 16/17 (RLS) · Cloudflare Workers & D1 · Supabase · Flyway · Prisma · Drizzle ORM
+Frontend & Graphics    :: React 19 · WebGL2 GLSL Shaders · Web Audio API · Tailwind CSS · Framer Motion · Vite · PWA
+Security & Networking  :: OWASP Top 10 · SSRF Defense · Argon2id / BCrypt · AES-256-GCM · Cisco CCNA (1–3) · Cyberforensics
+Infrastructure & Ops   :: Linux (Ubuntu / Debian / Kali) · Docker & Compose · Nginx · GitHub Actions CI/CD · WiX / NSIS
 ```
 
----
-
-## Technology Stack
-
-### Languages
-![Java](https://img.shields.io/badge/Java_25-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Go](https://img.shields.io/badge/Go_1.24-00ADD8?style=flat-square&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/PostgreSQL_SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-### Frameworks & Runtimes
-![Spring Boot](https://img.shields.io/badge/Spring_Boot_4-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS_11-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-
-### Databases, ORMs & Data Layers
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL_16%2F17-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Cloudflare D1](https://img.shields.io/badge/Cloudflare_D1-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma_ORM-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Drizzle ORM](https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
-![Flyway](https://img.shields.io/badge/Flyway_Migrations-CC0202?style=flat-square&logo=flyway&logoColor=white)
-
-### Systems, Security & Infrastructure
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker_&_Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco_CCNA-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+<p align="left">
+  <img src="https://img.shields.io/badge/Java_25-161618?style=flat-square&logo=openjdk&logoColor=E5C396" alt="Java 25" />
+  <img src="https://img.shields.io/badge/Rust-161618?style=flat-square&logo=rust&logoColor=E5C396" alt="Rust" />
+  <img src="https://img.shields.io/badge/Go_1.24-161618?style=flat-square&logo=go&logoColor=E5C396" alt="Go 1.24" />
+  <img src="https://img.shields.io/badge/TypeScript-161618?style=flat-square&logo=typescript&logoColor=E5C396" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Spring_Boot_4-161618?style=flat-square&logo=springboot&logoColor=E5C396" alt="Spring Boot 4" />
+  <img src="https://img.shields.io/badge/Tauri_2.2-161618?style=flat-square&logo=tauri&logoColor=E5C396" alt="Tauri 2.2" />
+  <img src="https://img.shields.io/badge/NestJS_11-161618?style=flat-square&logo=nestjs&logoColor=E5C396" alt="NestJS 11" />
+  <img src="https://img.shields.io/badge/Next.js_16-161618?style=flat-square&logo=nextdotjs&logoColor=E5C396" alt="Next.js 16" />
+  <img src="https://img.shields.io/badge/React_19-161618?style=flat-square&logo=react&logoColor=E5C396" alt="React 19" />
+  <img src="https://img.shields.io/badge/PostgreSQL_17-161618?style=flat-square&logo=postgresql&logoColor=E5C396" alt="PostgreSQL 17" />
+  <img src="https://img.shields.io/badge/Cloudflare_Workers_&_D1-161618?style=flat-square&logo=cloudflare&logoColor=E5C396" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Supabase-161618?style=flat-square&logo=supabase&logoColor=E5C396" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Docker-161618?style=flat-square&logo=docker&logoColor=E5C396" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-161618?style=flat-square&logo=linux&logoColor=E5C396" alt="Linux" />
+  <img src="https://img.shields.io/badge/Cisco_CCNA-161618?style=flat-square&logo=cisco&logoColor=E5C396" alt="Cisco CCNA" />
+</p>
 
 ---
 
-## Featured Engineering Projects
+### Architectural Invariants & Security Research
 
-| Project | Domain & Focus | Tech Stack | Status / Links |
-|:---|:---|:---|:---|
-| **[IJWKMS Next](https://github.com/ben-bacs/IJWKMS---Admin-Student-Management-System)** | Enterprise academic operations & student information management modular monolith. Features BCrypt auth, HttpOnly cookie sessions, versioned curricula, prerequisite engines, transactional enrollment, and audit trails. | Java 25, Spring Boot 4, PostgreSQL 17, Flyway, React 19, TypeScript, Docker | [Source Repository](https://github.com/ben-bacs/IJWKMS---Admin-Student-Management-System) |
-| **[BENSOY](https://github.com/ben-bacs/BENSOY)** | Private, edge-native Spotify listening intelligence & chronobiology platform. Features AES-256-GCM token encryption, automated cron polling (`*/30 * * * *`), 24-hour circadian analysis, and vector receipt generators. | Next.js, Cloudflare Workers, Cloudflare D1, Drizzle ORM, TypeScript | [Source Repository](https://github.com/ben-bacs/BENSOY) |
-| **[PCMS v2](https://github.com/ben-bacs/Pediatric-Clinic-Management-System-PCMS-)** | Security-hardened pediatric clinic platform and electronic medical records (EMR) system. Features strict PostgreSQL Row-Level Security (RLS), RBAC, appointment scheduling, and vaccine tracking. | Next.js App Router, Supabase Auth & PostgreSQL, TypeScript, Docker | [Source Repository](https://github.com/ben-bacs/Pediatric-Clinic-Management-System-PCMS-) |
-| **[HeatSafe Campus](https://github.com/ben-bacs/HeatSafe)** | Mobile-first heat-risk assessment and operational decision-support platform. Computes deterministic heat-index calculations, normalized weather feeds, and auditable institutional policy recommendations. | Next.js 16, React 19, Supabase Postgres/Auth, RLS, Open-Meteo API | [Source Repository](https://github.com/ben-bacs/HeatSafe) |
-| **A.C.A.M.S. ROTC-AF** | Automated Cadre Attendance Management System: offline-first, multi-tenant muster attendance platform for military/ROTC operations with tenant RLS isolation and sub-10ms p99 benchmarks across 1,000 cadets. | Go (Golang), PostgreSQL 16, Docker Compose, RLS Security | Private System |
-| **[Cal.com SSRF Mitigation](https://github.com/calcom/cal.diy/pull/30158)** | Upstream open-source security vulnerability fix for Cal.com (`calcom/cal.diy`). Mitigates Server-Side Request Forgery (SSRF) in ICS feed calendars and AvatarAPI prefill flows with redirect-safe fetch guards. | TypeScript, Node.js, Next.js, Jest, Network Security | [PR #30158](https://github.com/calcom/cal.diy/pull/30158) |
-| **Secure Service Desk** | Production-oriented multi-tenant IT service-management (ITSM) API built as a NestJS modular monolith with Argon2id hashing, short-lived JWTs, rotating refresh tokens, and immutable audit logs. | NestJS 11, TypeScript, PostgreSQL 17, Prisma ORM, Docker, OpenAPI | Internal Monolith |
-| **[AutoRest Sleep Tracker](https://github.com/ben-bacs/Sleep-Tracker)** | Zero-server-cost, 100% private sleep tracking & sleep debt analytics PWA. Apple Health / AutoSleep dark OLED aesthetic, hypnogram visualization, and procedural Web Audio noise synthesizers. | React, TypeScript, Tailwind CSS, Web Audio API, PWA | [Live Demo](https://ben-bacs.github.io/Sleep-Tracker/) · [Source](https://github.com/ben-bacs/Sleep-Tracker) |
-| **[BSIT 4B Academic Hub](https://github.com/ben-bacs/bsit4b-nis-st)** | Interactive academic courseware portal and slide deck covering CIT 245 (Cyberforensics) and CIT 220 (Information Assurance & Security 2). Features 479 interactive slides and syntax-highlighted terminal engines. | React, TypeScript, Vite, Tailwind CSS, LocalStorage | [Source Repository](https://github.com/ben-bacs/bsit4b-nis-st) |
-| **[A Day of Reset](https://github.com/ben-bacs/wellness-journal-presentation)** | Interactive 24-hour lifestyle and wellness protocol journal and 16:9 presentation deck with client-side PowerPoint (.pptx) export and verified Strava/sleep telemetry. | React, TypeScript, Tailwind CSS, PptxGenJS | [Live Demo](https://ben-bacs.github.io/wellness-journal-presentation/) · [Source](https://github.com/ben-bacs/wellness-journal-presentation) |
-| **[Personal Portfolio](https://github.com/ben-bacs/Portfolio)** | High-performance, responsive dark-mode portfolio website showcasing engineering systems, architecture, and network security credentials. | React, TypeScript, Vite, Tailwind CSS, Framer Motion | [Live Site](https://ben-bacs.github.io/Portfolio/) · [Source](https://github.com/ben-bacs/Portfolio) |
+> **Case Study — [Cal.com (`calcom/cal.diy`) SSRF Mitigation (PR #30158)](https://github.com/calcom/cal.diy/pull/30158)**
+> Decrypted external ICS calendar URLs and third-party AvatarAPI responses were previously passed directly to server-side `fetch()`, exposing internal network interfaces and cloud metadata endpoints to Server-Side Request Forgery. I designed and implemented `fetchWithSSRFProtection()` in `packages/lib/ssrfProtection.ts`—enforcing strict IP/hostname validation across redirect hops, capping maximum redirects, isolating multi-feed failures with `Promise.allSettled()`, and verifying coverage against loopback, link-local, private RFC 1918 ranges, and DNS rebinding vectors.
 
 ---
 
@@ -125,8 +164,11 @@ Frontend Engineering   React 19, TypeScript, Tailwind CSS, Progressive Web Apps 
 
 <div align="center">
 
-**Open to software engineering, backend development, systems architecture, and cybersecurity opportunities.**
+<samp>Open to Backend Engineering, Systems Architecture, Full-Stack &amp; Application Security Opportunities</samp>
 
-[![Portfolio](https://img.shields.io/badge/View_Portfolio-ben--bacs.github.io%2FPortfolio-gold?style=for-the-badge&logo=googlechrome&logoColor=black)](https://ben-bacs.github.io/Portfolio/)
+<br /><br />
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-ben--bacs.github.io-E5C396?style=for-the-badge&logo=googlechrome&logoColor=0B0B0C&labelColor=161618)](https://ben-bacs.github.io/Portfolio/)
+[![Email](https://img.shields.io/badge/EMAIL-benedictneilbacud%40gmail.com-E5C396?style=for-the-badge&logo=gmail&logoColor=0B0B0C&labelColor=161618)](mailto:benedictneilbacud@gmail.com)
 
 </div>
