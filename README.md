@@ -1,9 +1,5 @@
-## Hey, I'm Ben.
+### Benedict Neil D. Bacud
 
-I like working on what happens behind the interface.
+BSIT student at West Visayas State University, interested in backend systems and application security. I work with Rust, Go, and PostgreSQL.
 
-- **Studying** · BSIT at WVSU (ST & NIS)
-- **Interested in** · Backend systems and application security
-- **Working with** · Rust, Go, and PostgreSQL
-
-[Say hi](mailto:benedictneilbacud@gmail.com)
+[Email](mailto:benedictneilbacud@gmail.com)
